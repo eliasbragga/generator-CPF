@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Generator CPF</h2>
+        <h1>Mudou Ai ?</h1>
       </header>
     </div>
   );
