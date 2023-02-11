@@ -1,16 +1,44 @@
 .App {
   text-align: center;
+  height: 100vh !important;
+  background-color: #132247;
+  display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 40%;
+  height: 70% !important;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+
+.container-radio {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 73.5%;
+}
+
+.container-radio label {
+  color: #fbc531;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.container-radio  input {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px !important;
+}
+
+.input-checkbox {
+  min-width: 300px;
+  max-width: 300px;
+  text-align: start;
+}
+
+
 
 
